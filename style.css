@@ -13,7 +13,7 @@ body {
 .column {
 	float: left;
 	width:33%;
-	
+
 }
 
 input {
@@ -21,7 +21,11 @@ input {
 	width:95%;
 	padding: 10px;
 	border: 2px solid #fff;
-	
+	outline: none;
+}
+
+input:focus {
+	border:2px solid #2A6A98;
 }
 
 textarea {
@@ -30,6 +34,10 @@ textarea {
 	padding: 10px;
 	border: 2px solid #fff
 	
+	
+}
+textarea:focus {
+	border:2px solid #2A6A98;
 }
 
 select {
